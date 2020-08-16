@@ -1,8 +1,12 @@
 // Wide screens
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 // Desktops & laptops
 @include mediaLg {
+  grid-template-columns: repeat(3, 1fr);
 }
 // Tablets & small laptops
 @include mediaMd {
@@ -46,10 +50,16 @@
       "job-3";
     grid-template-columns: 1fr;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 // phone screen
 @include mediaSm {
   main#home .lg-heading {
     margin-top: 10vh;
+  }
+  .projects {
+    grid-template-columns: 1fr;
   }
 }
