@@ -73,9 +73,8 @@ main {
 .about-info {
   display: grid;
   gap: 30px;
-  grid-template-areas:
-    "bio-img bio bio"
-    "job-1 job-2 job-3";
+  grid-template-areas: "bio-img bio bio
+    job-1 job-2 job-3";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-img {

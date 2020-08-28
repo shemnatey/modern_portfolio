@@ -1,0 +1,24 @@
+{
+  "name": "portfolia",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shemnatey/modern_portfolio.git"
+  },
+  "author": "shem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shemnatey/modern_portfolio/issues"
+  },
+  "homepage": "https://github.com/shemnatey/modern_portfolio#readme"
+}
