@@ -1,6 +1,6 @@
 @import "config";
 @import "menu";
-
+@import "mobile";
 * {
   box-sizing: border-box;
 }
@@ -74,8 +74,8 @@ main {
   display: grid;
   gap: 30px;
 
-  // grid-template-areas: "bio-img bio bio
-  // job-1 job-2 job-3";
+  grid-template-areas: "bio-img bio bio
+  job-1 job-2 job-3";
 
   grid-template-columns: repeat(3, 1fr);
 
@@ -87,7 +87,7 @@ main {
   }
 
   .bio {
-    // grid-area: bio;
+    grid-area: bio;
     font-size: 1.5rem;
   }
   .job {
@@ -96,13 +96,13 @@ main {
     border-bottom: 5px solid $secondary-color;
   }
   .job-1 {
-    // grid-area: job-1;
+    grid-area: job-1;
   }
   .job-2 {
-    // grid-area: job-2;
+    grid-area: job-2;
   }
   .job-3 {
-    // grid-area: job-3;
+    grid-area: job-3;
   }
 }
 // Work/ Projects
@@ -174,5 +174,3 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
 }
-
-@import "mobile";
